@@ -7,3 +7,15 @@ h1 {
     text-align: center;
     font-size: 48px;
 }
+
+.about
+{
+    font-size: 20px;
+}
+
+#critique
+{
+    border: 1px solid #4F4;
+    color: Blue;
+    text-align:justify;
+}
