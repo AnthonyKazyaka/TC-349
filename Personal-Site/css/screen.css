@@ -1,0 +1,14 @@
+﻿body#home
+{
+    text-align: center;
+}
+
+p#landing
+{
+    color: Blue;
+}
+
+p.footer a:link
+{
+    font-weight: bold;
+}
