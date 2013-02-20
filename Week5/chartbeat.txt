@@ -1,0 +1,6 @@
+The website has a lot of interesting features, like graphics and text based on how far you've
+scrolled and where you're from, which can reel a reader in. The website also has a navigation
+bar that isn't affixed to the top at first, but once the user scrolls, it follows the user's
+scrolling so that it's always at the top. It uses a very clean and modern font, as well as a
+modern set of buttons and graphics.
+The use of all of these make the site very aesthetically pleasing. The information layout on the site is also well designed. The relevant information, especially about starting a trial of their product, draws your attention through these various touches. They seemed to use some advanced JavaScript techniques and CSS styles in order to group everything together in the main page. This is also true on the demo page, where everything is layed out in a nice, grid-like fashion. The site uses both images and styles, as well as concise text, to present a relatively uncluttered, but informative, experience.
