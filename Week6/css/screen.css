@@ -1,0 +1,90 @@
+﻿body
+{
+    background: url(../img/pw_maze_black.png);
+    margin: 0 auto;
+    font-family: "Helvetica", sans-serif;
+    line-height: 1.4em;
+    padding: 15px 20px;
+}
+
+h1
+{
+    background: #f0f0f0;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 25px;
+    text-shadow: 1px 1px 2px #888;
+    border-bottom: 2px dashed green;
+}
+
+h2
+{
+    margin: 40px 0 0 0;
+    text-align: center;
+    border-bottom: 2px solid #bababa;    
+}
+
+footer
+{
+    clear: both;
+}
+
+footer .sitenav
+{
+    border-top: 1px solid #bababa;
+    border-bottom: 1px solid #bababa;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+img
+{
+    margin: 0 2.5%;
+    padding: 30px 2.5%;
+    float: right;
+}
+
+.container
+{
+    background: #fff;
+    width: 800px;
+    margin: 0 auto;
+    padding: 15px;
+    background: #e3e3e3;
+}
+
+p#landing
+{
+    color: Blue;
+}
+
+p.footer a:link
+{
+    font-weight: bold;
+}
+
+section p
+{
+    border-bottom: 1px solid #bababa;
+}
+
+.two-column p
+{
+    padding: 3% 0;
+}
+
+.left-column
+{
+    margin: 0 2.5%;
+    padding: 30px 2.5%;
+    width: 40%;
+    float: left;
+}
+
+.right-column
+{
+    margin: 0 2.5%;
+    padding: 30px 2.5%;
+    width: 40%;
+    float: left;
+}
