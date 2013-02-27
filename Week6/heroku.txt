@@ -1,0 +1,6 @@
+The site uses an intuitive layout, though it seems to be a completely fixed one. It has a header that links to all of the important information. The footer links to more information in a way that incorporates images and sections.
+The background is a subtly repeating pattern that adds texture but doesn't draw the eye away from the information. They also utilize some Javascript to change the content tabs on the main page. The devcenter page uses a two-column layout with a navigation pane in the left column in order to help users find what they're looking for faster, though the page doesn't really follow the style of the rest of the site.
+Overall, I like the look of the site, but I don't like how the style seems to change between one way, which is in the majority of the sub-pages, and then another way, which is lighter and might be less cohesive than the other styling.
+
+
+I chose a two-column layout because it seemed to work best with my content. There was usually text that corresponded to a picture, and it would express this best when they were side to side. I had an idea of using a gallery for the portfolio and hobbies pages in my site, but I don't have enough content to make it seem any different than a two-column layout.
