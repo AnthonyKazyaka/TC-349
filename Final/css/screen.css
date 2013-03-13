@@ -94,3 +94,8 @@ section p
     font-size: .65em;
     color: #222;
 }
+
+.offset, .offset1
+{
+    padding: 0 0 0 20px;
+}
