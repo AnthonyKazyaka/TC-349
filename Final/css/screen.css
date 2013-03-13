@@ -145,3 +145,8 @@ button
 {
     margin-bottom: 10px;
 }
+
+.no-bot-border
+{
+    border-bottom: 0px;
+}
