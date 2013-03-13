@@ -7,20 +7,30 @@
     padding: 15px 20px;
 }
 
+h1, h2, h3
+{
+    color: #bbb;
+    text-align: center;
+    padding: 5px 10px;
+}
+
 h1
 {
-    background: #f0f0f0;
+    background: url(../img/pw_maze_black_@2X.png) ;
+    color: #bbb;
     text-align: center;
     margin: 0 auto;
     padding: 20px 25px;
-    text-shadow: 1px 1px 2px #888;
-    border-bottom: 2px dashed green;
+    text-shadow: 1px 1px 2px #aaa;
+    border-bottom: 1px solid #aaa;
 }
 
 h2
 {
+    color: #bbb;
     margin: 40px 0 0 0;
     text-align: center;
+    padding-bottom: 2px;
     border-bottom: 2px solid #bababa;    
 }
 
@@ -50,7 +60,7 @@ img
     width: 800px;
     margin: 0 auto;
     padding: 15px;
-    background: #e3e3e3;
+    background: #666;
 }
 
 p#landing
@@ -66,6 +76,11 @@ p.footer a:link
 section p
 {
     border-bottom: 1px solid #bababa;
+}
+
+.single-column
+{
+    padding: 0 3%;
 }
 
 .two-column p
@@ -89,13 +104,39 @@ section p
     float: left;
 }
 
-.sitenav .subtleLink
+.sitenav .subtle-link
 {
     font-size: .65em;
     color: #222;
 }
 
-.offset, .offset1
+.disabled-link
+{
+    color: rgba(155, 155, 155, .5);
+}
+
+.offset
 {
     padding: 0 0 0 20px;
+}
+
+.white-image-fore
+{
+    font-size: 2em;
+    line-height: 1.2em;
+    padding: 320px 3% 0 3%;
+    text-shadow: 10px 6px 6px #bbb;
+    color: #ddd;
+}
+
+#question-mark-bg
+{
+    background: url(../img/QuestionMark.png) no-repeat;
+    background-size: 750px 469px;
+    background-position: center center;
+}
+
+.question-info
+{
+    color: #bbb;
 }

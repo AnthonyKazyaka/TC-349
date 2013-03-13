@@ -3,9 +3,11 @@
 <head>
     <meta content="text/html; charset-utf-8;" http-equiv="Content-type" />
     <title>Goals</title>
+    <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet" media="screen" />
     <link type="text/css" href="css/screen.css" rel="Stylesheet" media="screen" />
     <script type="text/javascript" src="js/app.js" charset="utf-8"></script>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
 <body>
     <div class="container">
@@ -15,41 +17,29 @@
         </header>
         <section>
             <article>
-                <div class="two-column">
-                    <div class="left-column">
-                    <h2>Career Goals</h2>
-                    <p>Goals I would like to accomplish in my career include the following: </p>
-                    <ol>
-                        <li>Graduate Michigan State University</li>
-                        <li>Gain experience and knowledge in the professional world</li>
-                        <li>Form my own game and app development studio</li>
-                        <li>...?</li>
-                        <li>Profit!</li>
-                    </ol>
-                    <h2>Personal Goals</h2>
-                    <ul>
-                        <li>Keep the nice girl</li>
-                        <li>Get married and such</li>
-                        <li>Have children</li>
-                        <li>Have fun</li>
-                    </ul>
-                    </div>
-                    <div class="right-column">
-                        <img alt="Erin and I" src="img/Erin and I - Profile Picture.jpg" width="300px" height="400px"/>
-                    </div>
+                <div class="row">
+                    <h3>What kind of question?</h3>
+                </div>
+                <div class="row">
+                    <table class="table offset1 span6 question-info">
+                        <tr>
+                            <td class="span3">What is your question?</td><td class="span3"><input type="text"/></td>
+                        </tr>
+                        <tr>
+                            <td>What kind of question is it? (Poll, free response, both?)</td><td><input type="text"/></td>
+                        </tr>
+                        <tr>
+                            <td>Which topics does your question include? (Tags?)</td><td><input type="text"/></td>
+                        </tr>
+                        <tr>
+                            <td>Who does your question pertain to? (Kids, Teens, Adults?)</td><td><input type="text"/></td>
+                        </tr>
+                    </table>
                 </div>
             </article>
         </section>
     <footer>
         <p class="sitenav"><a href="index.html">Home</a> | <a class="disabledLink" href="ask.html">Ask</a> | <a href="answer.html">Answer</a> | <a href="about.html">About</a></p>    
     </footer>
-    </div>
 </body>
 </html>
-
-<script type="text/javascript">
-    $(document).ready(function()
-    {
-        
-    }
-</script>
