@@ -1,5 +1,7 @@
 ﻿$(document).ready(function () {
 
+    var index;
+
     $(document).on('click', '.askButton', function () {
         var questionInputs = $(".question");
 
@@ -12,12 +14,42 @@
     });
 
     $(document).on('click', '#nickelback', function () {
-        var responses = $("#nickelbackFreeResponses > li");
+        var responses = $("#nickelbackFreeResponses > li").clone();
         console.log(responses);
-        var index = responses[responses.length - 1].textContent.substr(0, 2);
+        index = responses[responses.length - 1].textContent.substr(0, 2);
+        index++;
+        console.log(index);
+        $("#nickelbackResponses > ul").html(responses).append('<input type="text" id="nickelbackInput" placeholder="Type your response here!"></input><button type="submit" id="responseSubmit">Submit!</button>');
 
-        $("#nickelbackResponses > ul").html(responses);
+    });
 
+    $(document).on('click', '#responseSubmit', function () {
+        var responseInput = $("#nickelbackInput")[0].value;
+        console.log(responseInput);
+        $("#nickelbackFreeResponses").append('<li>' + index + '. ' + responseInput + '</li>');
+        $("#nickelbackModal").modal('hide');
+    });
+
+    $(document).on('click', '#doritosTacos', function () {
+        var options = $("#tacoBellOptions > li");
+        var radios = '';
+        for (var i = 0; i < options.length; i++) {
+            radios += '<li><input type="radio" name="doritos">' + options[i].textContent + '</input></li>';
+        }
+        $("#tacoOptions").html(radios);
+    });
+
+    $(document).on('click', '#saladDressings', function () {
+        var options = $("#saladDressingOptions > li");
+        var radios = '';
+        for (var i = 0; i < options.length; i++) {
+            radios += '<li><input type="radio" name="dressings">' + options[i].textContent + '</input></li>';
+        }
+        $("#saladOptions").html(radios);
+    });
+
+    $(document).on('click', '.vote', function () {
+        $(".modal").modal('hide');
     });
 
 

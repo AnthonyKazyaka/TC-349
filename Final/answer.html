@@ -37,32 +37,60 @@
                             </div>
                             <div class="modal-footer">
                                 <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-                                <button class="btn btn-primary">Vote!</button>
+                                <button class="btn btn-primary">Respond!</button>
                             </div>
                         </div>
                     </article>
                     <p></p>
                     <article>
-                        <h3 class="question-info pollTitle"><a href="#">Do you like Taco Bell's new Doritos Locos Cool Ranch taco?</a></h3>
+                        <h3 class="question-info pollTitle" id="doritosTacos"><a href="#tacoModal" data-toggle="modal">Do you like Taco Bell's new Doritos Locos Cool Ranch taco?</a></h3>
                         <h4 class="no-bot-border question-info">Responses:</h4>
-                        <ul class="question-info offset1 pollOptions">
+                        <ul class="question-info offset1 pollOptions" id="tacoBellOptions">
                             <li>36% voted "Yes"</li>
                             <li>34% voted "No"</li>
                             <li>10% voted "I'm neutral about it"</li>
                             <li>20% voted "Haven't tried it yet"</li>
                         </ul>
+                        <!-- Modal -->
+                        <div id="tacoModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="tacoBellLabel" aria-hidden="true">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                <h3 id="tacoBellLabel">Do you like Taco Bell's new Doritos Locos Cool Ranch taco?</h3>
+                            </div>
+                            <div class="modal-body">
+                                <div id="tacoOptions"><ul></ul></div>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                                <button class="btn btn-primary vote">Vote!</button>
+                            </div>
+                        </div>
                     </article>
                     <p></p>
                     <article>
-                        <h3 class="question-info"><a href="#">Which salad dressing is your favorite?</a></h3>
+                        <h3 class="question-info pollTitle" id="saladDressings"><a href="#saladModal" data-toggle="modal">Which salad dressing is your favorite?</a></h3>
                         <h4 class="no-bot-border question-info pollTitle">Responses:</h4>
-                        <ul class="question-info offset1 pollOptions">
+                        <ul class="question-info offset1 pollOptions" id="saladDressingOptions">
                             <li>76% voted "Ranch"</li>
                             <li>15% voted "Italian"</li>
                             <li>5% voted "Thousand Island"</li>
                             <li>2% voted "Raspberry Vinaigrette"</li>
                             <li>2% voted "Other"</li>
                         </ul>
+                        <!-- Modal -->
+                        <div id="saladModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="saladDressingLabel" aria-hidden="true">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                <h3 id="saladDressingLabel">Which salad dressing is your favorite?</h3>
+                            </div>
+                            <div class="modal-body">
+                                <div id="saladOptions"><ul></ul></div>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                                <button class="btn btn-primary vote">Vote!</button>
+                            </div>
+                        </div>
                     </article>
                 </div>
             </div>
