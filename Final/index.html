@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta content="text/html; charset-utf-8;" http-equiv="Content-type" />
-    <title>Ask the world anything!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - CrowdSource</title>
     <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet" media="screen" />
     <link type="text/css" href="css/screen.css" rel="Stylesheet" media="screen" />
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -10,22 +11,49 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
 <body>
-    <div class="container">
+    <div class="container-fluid">
+        <div class="navbar navbar-fixed-top navbar-inverse">
+            <div class="navbar-inner" style="padding: 0 20px">
+                <div class="container-fluid">
+                    <a class="brand" href="index.html">CrowdSource</a>
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                    </a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav pull-right">
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li><a href="ask.html">Ask</a></li>
+                            <li><a href="answer.html">Answer</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li>
+                                <form class="navbar-search pull-left" action="">
+                                <input class="search-query span2" type="text" placeholder="Search"/>
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
         <header>
             <h1>CrowdSource</h1>
         </header>
         <section>
             <article >
                 <h2>Ask the world!</h2>
-                <div class="single-column" id="question-mark-bg">
-                    <p class="white-image-fore">Ever wanted to know how popular your opinion is? CrowdSource gives you the easiest way to find out! Just ask a question and the large and vibrant community responds!</p>            
+                <div class="row-fluid">
+                    <div class="offset2 span8" id="question-mark-bg">
+                        <p class="white-image-fore no-bot-border">Ever wanted to know how popular your opinion is? CrowdSource gives you the easiest way to find out! Just ask a question and the large and vibrant community responds!</p>
+                    </div>
                 </div>
             </article>
         </section>
         <footer>
             <p class="sitenav"><a class="disabled-link" href="index.html">Home</a> | <a href="ask.html">Ask</a> | <a href="answer.html">Answer</a> | <a href="about.html">About</a>    
             <br />
-            <a class="subtle-link" href="http://www.subtlebackgrounds.com">Background images provided by SubtleBackgrounds.com!</a>
+            <a class="subtle-link" href="http://www.subtlebackgrounds.com">Background images provided by SubtleBackgrounds.com</a>
             </p>
         </footer>
     </div>

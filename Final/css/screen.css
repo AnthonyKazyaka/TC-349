@@ -54,10 +54,9 @@ img
     float: right;
 }
 
-.container
+body>.container-fluid
 {
     background: #fff;
-    width: 800px;
     margin: 0 auto;
     padding: 15px;
     background: #666;
@@ -125,12 +124,13 @@ section p
     font-size: 2em;
     line-height: 1.2em;
     padding: 320px 3% 0 3%;
-    text-shadow: 10px 6px 6px #bbb;
+    text-shadow: 5px 3px 6px #bbb;
     color: #ddd;
 }
 
 #question-mark-bg
 {
+    padding: 20px 0;
     background: url(../img/QuestionMark.png) no-repeat;
     background-size: 750px 469px;
     background-position: center center;
@@ -149,4 +149,28 @@ button
 .no-bot-border
 {
     border-bottom: 0px;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) 
+{
+        
+}
+     
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) 
+{
+    
+}
+     
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) 
+{
+        
+}
+     
+/* Landscape phones and down */
+@media (max-width: 480px) 
+{
+
 }
